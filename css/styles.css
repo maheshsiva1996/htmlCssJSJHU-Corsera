@@ -71,10 +71,6 @@ body{
     font-size: 1.2em;
   }
 
-section div {
-	background-color: gray;
-}
-
 #title{
 	font-weight: bolder;
 	font-size: 1.8em;
@@ -82,17 +78,24 @@ section div {
 }
 
 h1{
-	margin: 10px 10px 20px 10px;
 	font-family: Verdana;
 	font-weight: bolder;
 }
-
 
 #description{
   margin: 10px ;
   text-align: left;
   width: 90%;
   font-style:italic;
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+
+.row{
+	padding: 30px;
+}
+
+.row div {
+	background-color: grey;
+
 }
 
